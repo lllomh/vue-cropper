@@ -46,6 +46,16 @@ if(process.browser) {
 #### [关于昵称和头像的总结（模仿微信）](https://zhuanlan.zhihu.com/p/45746753)  作者： 秋晨光
 #### [vue-cropper-h5](https://github.com/2277419213/vue-cropper-h5)  作者：居里栈栈
 
+vue-cropper-h5 添加 放大缩小按钮
+
+添加       changeScale: function (t) {
+          t = t || 1, this.$refs.cropper.changeScale(t)
+        }
+	
+	
+就可   在 loadBase64 方法后面
+ 
+
 ### vue-cropper 交流。
 ##### 有什么意见,或者bug  或者想一起开发vue-cropper， 或者想一起开发其他插件
 ![](https://qn-qn-kibey-static-cdn.app-echo.com/4C6FE9E2-3D06-402B-8F32-98B82BEBDD9F.png)
